@@ -39,13 +39,38 @@
         {
             "name": "prod",
             "policies": [
-                
+                {
+                    "name": "verify-api-key.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/VerifyAPIKey/DisplayName",
+                            "value": "Verify Api Key YEM"
+                        }
+                    ]
+                }         
             ],
             "proxies": [
-               
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/ProxyEndpoint/HTTPProxyConnection/BasePath",
+                            "value": "/weatherapi"
+                        }
+                    ]
+                }
+              
             ],
             "targets": [
-            
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/TargetEndpoint/HTTPTargetConnection/URL",
+                            "value": "http://weather.yahooapis.com"
+                        }
+                    ]
+                }
             ]
         }
     ]
