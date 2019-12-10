@@ -4,5 +4,5 @@ This repo contains a sample proxy that was created on apigee and exported.  Chan
 
 Make note of the directory structure of this project.  The proxies themselves are under /gateway/*
 
-Since there is only one set of files for a proxy, use config.json to configure the proxy based on your environments.  For example the target url may be different between test and prod so config.json can be used to replace values in the proxy config before deployment.
+Since there is only one set of files for a proxy, use config.json to configure the proxy based on your environments.  For example the target url may be different between test and prod so https://github.com/yemhuynh/apigee-proxies/blob/master/src/gateway/categories/config.json can be used to replace values in the proxy config before deployment.
 
