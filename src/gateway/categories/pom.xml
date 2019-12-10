@@ -25,7 +25,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>apigee</groupId>
+    <groupId>yem</groupId>
     <artifactId>categories</artifactId>
     <version>1.0</version>
     <name>categories</name>
