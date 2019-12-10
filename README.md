@@ -6,3 +6,9 @@ Make note of the directory structure of this project.  The proxies themselves ar
 
 Since there is only one set of files for a proxy, use config.json to configure the proxy based on your environments.  For example the target url may be different between test and prod so [config.json](https://github.com/yemhuynh/apigee-proxies/blob/master/src/gateway/categories/config.json) can be used to replace values in the proxy config before deployment.
 
+Some commands to get started:
+
+To configure/package the proxy to be deployed (but does not deploy):
+```
+mvn package -Pprod -Dusername=yem.huynh@gmail.com -Dpassword=TheUsual1! -Dorg=yemhuynh-eval
+```
