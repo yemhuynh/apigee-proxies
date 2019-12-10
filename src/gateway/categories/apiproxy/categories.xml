@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="categories">
+    <Basepaths>/categories/v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1575939204932</CreatedAt>
+    <CreatedBy>yem.huynh@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>categories</DisplayName>
+    <LastModifiedAt>1575939204932</LastModifiedAt>
+    <LastModifiedBy>yem.huynh@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:30822e3320be09024ff0c6ef6ec76561dd0c90911296f8aa6ea885aebb1857b91c2ef04b5c7be016973afc1841922705075f353d727da16243fbbde20fdb29b5</ManifestVersion>
+    <Policies>
+        <Policy>add-cors</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
