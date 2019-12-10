@@ -10,5 +10,14 @@ Some commands to get started:
 
 To configure/package the proxy to be deployed (but does not deploy):
 ```
-mvn package -Pprod -Dusername=yem.huynh@gmail.com -Dpassword=TheUsual1! -Dorg=yemhuynh-eval
+mvn package -P<maven_profile> -Dusername=<your_apigee_username> -Dpassword=<your_apigee_password> -Dorg=<your_apigee_org>
+
+Example:
+
+mvn package -Pprod -Dusername=somename@somehost.com -Dpassword=foobar -Dorg=somename-eval
+```
+
+To configure/package and deploy and update an existing version (in this example version 6) :
+```
+mvn package -P<maven_profile> -Dusername=<your_apigee_username> -Dpassword=<your_apigee_password> -Dorg=<your_apigee_org>
 ```
