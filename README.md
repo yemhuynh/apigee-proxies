@@ -8,18 +8,26 @@ Since there is only one set of files for a proxy, use config.json to configure t
 
 Some commands to get started:
 
-To configure/package the proxy to be deployed (but does not deploy):
 ```
+To configure/package the proxy to be deployed (but does not deploy):
+
 mvn package -P<maven_profile> -Dusername=<your_apigee_username> -Dpassword=<your_apigee_password> -Dorg=<your_apigee_org>
 
 Example:
 
 mvn package -Pprod -Dusername=somename@somehost.com -Dpassword=foobar -Dorg=somename-eval
 
-In the above example the profile is prod (see shared-pom.xml)
+In the above example the profile is prod (see shared-pom.xml) to org=somename-eval (this appears in the top left hand corner of your apigee interface when you log in).  
 ```
 
-To configure/package and deploy and update an existing version (in this example version 6) :
 ```
+To configure/package and deploy and update an existing version (in this example version 6) :
+
 mvn package -P<maven_profile> -Dusername=<your_apigee_username> -Dpassword=<your_apigee_password> -Dorg=<your_apigee_org>
+```
+
+```
+To configure/package and deploy to the next version (ie if the latest version is 3 then this will deploy a version 4) 
+
+mvn install -P<maven_profile> -Dusername=<your_apigee_username> -Dpassword=<your_apigee_password> -Dorg=<your_apigee_org>
 ```
