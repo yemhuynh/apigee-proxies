@@ -15,6 +15,8 @@ mvn package -P<maven_profile> -Dusername=<your_apigee_username> -Dpassword=<your
 Example:
 
 mvn package -Pprod -Dusername=somename@somehost.com -Dpassword=foobar -Dorg=somename-eval
+
+In the above example the profile is prod (see shared-pom.xml)
 ```
 
 To configure/package and deploy and update an existing version (in this example version 6) :
