@@ -1,0 +1,55 @@
+{
+    "version": "1.0",
+    "envConfig": {
+        "test": {
+            "targetServers": [
+                
+            ],
+            "virtualHosts": [
+                
+            ],
+
+            "userroles": [
+                
+            ],
+            "caches": [
+                
+            ],
+            "kvms": [
+                
+            ],
+            "extensions":[
+        		
+           ]
+        },
+        "prod": {
+            "caches": [],
+            "targetServers": []
+        }
+    },
+    "orgConfig": {
+        "apiProducts": [
+            
+        ],
+        "developers": [
+           
+        ],
+        "developerApps": {
+            "yem.huynh@gmail.com": [
+                {
+                    "name": "YemApp",
+                    "apiProducts": [
+                        "Categories"
+                    ],
+                    "scopes": []
+                }
+            ]
+        },
+
+
+        "kvms": [
+            
+        ]
+    }
+    
+}
