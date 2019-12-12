@@ -1,0 +1,1047 @@
+[
+    {
+        "name": "user",
+        "resourcePermission": [
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/applications",
+                "permissions": [
+                    "delete",
+                    "get",
+                    "put"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apiproducts",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/developers",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apps",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/companies",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/virtualhosts",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/virtualhosts/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/stats",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/analytics/admin",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/axCustomReports",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/reports",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/applications/*/revisions/*/deployments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/applications/*/revisions/*/deployments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/deployments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/applications/*/revisions/*/debugsessions",
+                "permissions": [
+                    "delete",
+                    "get",
+                    "put"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/userroles/*/permissions",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/apipattern",
+                "permissions": [
+                    "delete",
+                    "get",
+                    "put"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/keyvaluemaps",
+                "permissions": [
+                    "delete",
+                    "get",
+                    "put"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/userroles",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apimodels",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apimodels/*",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/keyvaluemaps",
+                "permissions": []
+            }
+        ]
+    },
+    {
+        "name": "yemrole",
+        "resourcePermission": [
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apps",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/reports",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apps/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/companies",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/developers",
+                "permissions": [
+                    "put"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apiproducts",
+                "permissions": [
+                    "get",
+                    "put"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/reports/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/applications",
+                "permissions": [
+                    "get",
+                    "put"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/developers/*",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apiproducts/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/applications/*",
+                "permissions": [
+                    "get",
+                    "put"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/companies/*/apps",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/developers/*/apps",
+                "permissions": [
+                    "put"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/companies/*/apps/*",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/developers/*/apps/*",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/prod/caches",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/test/caches",
+                "permissions": [
+                    "put"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/virtualhosts",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/prod/caches/*",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/virtualhosts/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/prod/applications/*/revisions/*/deployments",
+                "permissions": [
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/test/applications/*/revisions/*/deployments",
+                "permissions": [
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/prod/applications/*/revisions/*/debugsessions",
+                "permissions": [
+                    "get",
+                    "put"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/test/applications/*/revisions/*/debugsessions",
+                "permissions": [
+                    "get",
+                    "put"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "opsadmin",
+        "resourcePermission": [
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/applications",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apiproducts",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/developers",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apps",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/companies",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/virtualhosts",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/virtualhosts/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/stats",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/analytics/admin",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/axCustomReports",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/reports",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/applications/*/revisions/*/deployments",
+                "permissions": [
+                    "get",
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/applications/*/revisions/*/deployments",
+                "permissions": [
+                    "get",
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/deployments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/applications/*/revisions/*/debugsessions",
+                "permissions": [
+                    "get",
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/userroles/*/permissions",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/apipattern",
+                "permissions": [
+                    "get",
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/keyvaluemaps",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/userroles",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apimodels",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apimodels/*",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/keyvaluemaps",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apimonitoring",
+                "permissions": [
+                    "get",
+                    "put",
+                    "delete"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "orgadmin",
+        "resourcePermission": [
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/",
+                "permissions": [
+                    "delete",
+                    "get",
+                    "put"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/virtualhosts",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/virtualhosts/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apimonitoring",
+                "permissions": [
+                    "delete",
+                    "get",
+                    "put"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "businessuser",
+        "resourcePermission": [
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/applications",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apiproducts",
+                "permissions": [
+                    "get",
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/developers",
+                "permissions": [
+                    "get",
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apps",
+                "permissions": [
+                    "get",
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/companies",
+                "permissions": [
+                    "get",
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/virtualhosts",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/virtualhosts/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/stats",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/analytics/admin",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/axCustomReports",
+                "permissions": [
+                    "get",
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/reports",
+                "permissions": [
+                    "get",
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/applications/*/revisions/*/deployments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/applications/*/revisions/*/deployments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/deployments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/devPortalButton",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/userroles/*/permissions",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/appKeys",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/devConnectUser",
+                "permissions": [
+                    "put"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/apipattern",
+                "permissions": [
+                    "get",
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/keyvaluemaps",
+                "permissions": [
+                    "get",
+                    "put",
+                    "delete"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/userroles",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apimodels",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apimodels/*",
+                "permissions": []
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/keyvaluemaps",
+                "permissions": []
+            }
+        ]
+    },
+    {
+        "name": "readonlyadmin",
+        "resourcePermission": [
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/applications",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apiproducts",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/developers",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apps",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/companies",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/virtualhosts",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/virtualhosts/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/servers",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/stats",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/analytics/admin",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/axCustomReports",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/reports",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/applications/*/revisions/*/deployments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/applications/*/revisions/*/deployments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/deployments",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/applications/*/revisions/*/debugsessions",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/devPortalButton",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/userroles/*/permissions",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/appKeys",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/devConnectUser",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/systemLevelUser",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/pods",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/apipattern",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/keyvaluemaps",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/userroles",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apimodels",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apimodels/*",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/environments/*/keyvaluemaps",
+                "permissions": [
+                    "get"
+                ]
+            },
+            {
+                "organization": "yemhuynh-eval",
+                "path": "/apimonitoring",
+                "permissions": [
+                    "get"
+                ]
+            }
+        ]
+    }
+]

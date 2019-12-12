@@ -1,0 +1,49 @@
+[
+    {
+        "apiResources": [],
+        "approvalType": "auto",
+        "attributes": [
+            {
+                "name": "access",
+                "value": "public"
+            }
+        ],
+        "createdAt": 1575939349567,
+        "createdBy": "yem.huynh@gmail.com",
+        "description": "Categories",
+        "displayName": "Categories",
+        "environments": [
+            "prod"
+        ],
+        "lastModifiedAt": 1575939349567,
+        "lastModifiedBy": "yem.huynh@gmail.com",
+        "name": "Categories",
+        "proxies": [
+            "categories"
+        ],
+        "scopes": []
+    },
+    {
+        "apiResources": [],
+        "approvalType": "auto",
+        "attributes": [],
+        "createdAt": 1575939125161,
+        "createdBy": "accounts_apigee_admin@google.com",
+        "description": "helloworld product for Apigee",
+        "displayName": "helloworld",
+        "environments": [
+            "prod",
+            "test"
+        ],
+        "lastModifiedAt": 1575939125161,
+        "lastModifiedBy": "accounts_apigee_admin@google.com",
+        "name": "helloworld",
+        "proxies": [],
+        "quota": "5",
+        "quotaInterval": "1",
+        "quotaTimeUnit": "minute",
+        "scopes": [
+            ""
+        ]
+    }
+]

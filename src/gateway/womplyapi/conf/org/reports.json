@@ -1,0 +1,45 @@
+[
+    {
+        "chartType": "column",
+        "comments": [],
+        "createdAt": 1576104729000,
+        "createdBy": "yem.huynh@gmail.com",
+        "dimensions": [
+            "developer_email"
+        ],
+        "displayName": "report123",
+        "environment": "prod",
+        "lastModifiedAt": 1576104729000,
+        "lastModifiedBy": "yem.huynh@gmail.com",
+        "lastViewedAt": 1576104729000,
+        "metrics": [
+            {
+                "function": "sum",
+                "name": "target_error"
+            },
+            {
+                "function": "sum",
+                "name": "message_count"
+            }
+        ],
+        "name": "0e2c673e-cee7-46b6-90e2-4c20349ab4c6",
+        "organization": "yemhuynh-eval",
+        "properties": [
+            {
+                "property": "__ui__",
+                "value": [
+                    {
+                        "name": "description",
+                        "value": "this is a sample report"
+                    },
+                    {
+                        "name": "accuracy"
+                    }
+                ]
+            }
+        ],
+        "sortbyCols": [],
+        "tags": [],
+        "timeUnit": "hour"
+    }
+]

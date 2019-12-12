@@ -1,0 +1,38 @@
+[
+    {
+        "apps": [
+            "YemApp"
+        ],
+        "attributes": [],
+        "companies": [],
+        "createdAt": 1575939508664,
+        "createdBy": "eng-apiportal@google.com",
+        "developerId": "7bbead2c-b9d2-4b1e-be41-79da46d435be",
+        "email": "yem.huynh@gmail.com",
+        "firstName": "yem",
+        "lastModifiedAt": 1575939508664,
+        "lastModifiedBy": "eng-apiportal@google.com",
+        "lastName": "huynh",
+        "organizationName": "yemhuynh-eval",
+        "status": "active",
+        "userName": "yem.huynh@gmail.com"
+    },
+    {
+        "apps": [
+            "helloApp"
+        ],
+        "attributes": [],
+        "companies": [],
+        "createdAt": 1575939125566,
+        "createdBy": "accounts_apigee_admin@google.com",
+        "developerId": "f11cb1e4-2597-41bb-9450-86acca25f0e5",
+        "email": "helloworld@apigee.com",
+        "firstName": "helloworld",
+        "lastModifiedAt": 1575939125566,
+        "lastModifiedBy": "accounts_apigee_admin@google.com",
+        "lastName": "dev",
+        "organizationName": "yemhuynh-eval",
+        "status": "active",
+        "userName": "helloworld"
+    }
+]

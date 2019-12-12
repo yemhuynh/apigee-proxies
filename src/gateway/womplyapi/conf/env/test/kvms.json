@@ -1,0 +1,12 @@
+[
+    {
+        "encrypted": false,
+        "entry": [
+            {
+                "name": "foo222",
+                "value": "bar222"
+            }
+        ],
+        "name": "kvm2"
+    }
+]

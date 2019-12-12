@@ -1,0 +1,34 @@
+[
+    {
+        "description": "pcache2",
+        "diskSizeInMB": 0,
+        "distributed": true,
+        "expirySettings": {
+            "timeoutInSec": {
+                "value": "300"
+            }
+        },
+        "inMemorySizeInKB": 0,
+        "maxElementsInMemory": 0,
+        "maxElementsOnDisk": 0,
+        "name": "pcache2",
+        "overflowToDisk": false,
+        "persistent": false
+    },
+    {
+        "description": "prod cache",
+        "diskSizeInMB": 0,
+        "distributed": true,
+        "expirySettings": {
+            "timeoutInSec": {
+                "value": "300"
+            }
+        },
+        "inMemorySizeInKB": 0,
+        "maxElementsInMemory": 0,
+        "maxElementsOnDisk": 0,
+        "name": "pcache",
+        "overflowToDisk": false,
+        "persistent": false
+    }
+]

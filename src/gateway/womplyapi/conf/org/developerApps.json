@@ -1,0 +1,75 @@
+[
+    {
+        "apiProducts": [],
+        "appFamily": "default",
+        "appId": "00943d6c-1c41-4944-bee4-08c682e114d0",
+        "attributes": [
+            {
+                "name": "DisplayName",
+                "value": "YemApp"
+            },
+            {
+                "name": "Notes",
+                "value": ""
+            }
+        ],
+        "callbackUrl": "",
+        "createdAt": 1575939852012,
+        "createdBy": "yem.huynh@gmail.com",
+        "credentials": [
+            {
+                "apiProducts": [
+                    {
+                        "apiproduct": "Categories",
+                        "status": "approved"
+                    }
+                ],
+                "attributes": [],
+                "consumerKey": "caeI7jwG2yU7nAsZvukAGjypPGHda5p4",
+                "consumerSecret": "MOhudO49PnMtLG1N",
+                "expiresAt": -1,
+                "issuedAt": 1575939852484,
+                "scopes": [],
+                "status": "approved"
+            }
+        ],
+        "developerId": "7bbead2c-b9d2-4b1e-be41-79da46d435be",
+        "lastModifiedAt": 1575939852012,
+        "lastModifiedBy": "yem.huynh@gmail.com",
+        "name": "YemApp",
+        "scopes": [],
+        "status": "approved"
+    },
+    {
+        "apiProducts": [],
+        "appFamily": "default",
+        "appId": "8eb0be4e-1f09-4cb4-85a0-a3d13654a00b",
+        "attributes": [],
+        "callbackUrl": "http://example.com",
+        "createdAt": 1575939126343,
+        "createdBy": "accounts_apigee_admin@google.com",
+        "credentials": [
+            {
+                "apiProducts": [
+                    {
+                        "apiproduct": "helloworld",
+                        "status": "approved"
+                    }
+                ],
+                "attributes": [],
+                "consumerKey": "QIakZqAQhDYDv8uKwu4hTTU4lAjYGcJs",
+                "consumerSecret": "3M6K75xwQxkILB70",
+                "expiresAt": -1,
+                "issuedAt": 1575939126426,
+                "scopes": [],
+                "status": "approved"
+            }
+        ],
+        "developerId": "f11cb1e4-2597-41bb-9450-86acca25f0e5",
+        "lastModifiedAt": 1575939126343,
+        "lastModifiedBy": "accounts_apigee_admin@google.com",
+        "name": "helloApp",
+        "scopes": [],
+        "status": "approved"
+    }
+]

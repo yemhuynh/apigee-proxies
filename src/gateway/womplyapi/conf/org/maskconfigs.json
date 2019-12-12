@@ -1,0 +1,27 @@
+[
+    {
+        "jSONPathsFault": [
+            "$.store.book[*].author"
+        ],
+        "jSONPathsRequest": [
+            "$.store.book[*].author"
+        ],
+        "jSONPathsResponse": [
+            "$.store.book[*].author"
+        ],
+        "name": "default",
+        "variables": [
+            "request.header.user-agent",
+            "request.formparam.password"
+        ],
+        "xPathsFault": [
+            "/apigee:Greeting/apigee:User"
+        ],
+        "xPathsRequest": [
+            "/apigee:Greeting/apigee:User"
+        ],
+        "xPathsResponse": [
+            "/apigee:Greeting/apigee:User"
+        ]
+    }
+]

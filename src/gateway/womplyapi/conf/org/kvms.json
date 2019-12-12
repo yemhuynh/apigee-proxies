@@ -1,0 +1,16 @@
+[
+    {
+        "encrypted": true,
+        "entry": [
+            {
+                "name": "Org_Key1",
+                "value": "*****"
+            },
+            {
+                "name": "Org_Key2",
+                "value": "*****"
+            }
+        ],
+        "name": "Map_name"
+    }
+]
