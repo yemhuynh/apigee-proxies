@@ -1,0 +1,31 @@
+[
+    {
+        "hostAliases": [
+            "yemhuynh-eval-prod.apigee.net"
+        ],
+        "interfaces": [],
+        "listenOptions": [],
+        "name": "default",
+        "port": "80",
+        "retryOptions": []
+    },
+    {
+        "hostAliases": [
+            "yemhuynh-eval-prod.apigee.net"
+        ],
+        "interfaces": [],
+        "listenOptions": [],
+        "name": "secure",
+        "port": "443",
+        "retryOptions": [],
+        "sSLInfo": {
+            "ciphers": [],
+            "clientAuthEnabled": "false",
+            "enabled": "true",
+            "ignoreValidationErrors": false,
+            "keyAlias": "freetrial",
+            "keyStore": "ref://freetrialref",
+            "protocols": []
+        }
+    }
+]

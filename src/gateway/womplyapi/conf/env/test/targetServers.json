@@ -1,0 +1,15 @@
+[
+    {
+        "host": "test.target.server.1",
+        "isEnabled": false,
+        "name": "testtargetserver1",
+        "port": 80,
+        "sSLInfo": {
+            "ciphers": [],
+            "clientAuthEnabled": "false",
+            "enabled": "false",
+            "ignoreValidationErrors": false,
+            "protocols": []
+        }
+    }
+]

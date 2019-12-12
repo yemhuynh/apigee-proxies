@@ -1,0 +1,12 @@
+[
+    {
+        "name": "prodref",
+        "refers": "freetrial",
+        "resourceType": "KeyStore"
+    },
+    {
+        "name": "freetrialref",
+        "refers": "freetrial",
+        "resourceType": "KeyStore"
+    }
+]

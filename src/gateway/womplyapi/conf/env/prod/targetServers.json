@@ -1,0 +1,15 @@
+[
+    {
+        "host": "prod.target.server.1",
+        "isEnabled": false,
+        "name": "prodtargetserver1",
+        "port": 8080,
+        "sSLInfo": {
+            "ciphers": [],
+            "clientAuthEnabled": "false",
+            "enabled": "false",
+            "ignoreValidationErrors": false,
+            "protocols": []
+        }
+    }
+]
