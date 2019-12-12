@@ -7,8 +7,8 @@ import errno
 def get(suffix):
     print(constants.APIGEE_MGMT_API_BASE_URL+suffix)
     response=requests.get(constants.APIGEE_MGMT_API_BASE_URL+suffix, headers={'Accept': 'application/json'}, auth=(constants.username, constants.pwd))
-    assert response.status_code==200
     print(response.json())
+    assert response.status_code==200
     return response.json()
 
 def dumpConfig(relativePath,content):
